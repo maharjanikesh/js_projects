@@ -1,0 +1,172 @@
+body{
+    padding:0;
+    margin: 0;
+    /* background-color: rgb(235, 233, 232); */
+    background: url("https://images.pexels.com/photos/3771110/pexels-photo-3771110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 ");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+span,p{
+    font-family: Poppins,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 20px ;
+}
+label{
+    cursor: pointer;
+}
+textarea, input{
+    border: none;
+    outline: none;
+}
+#container{
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    margin:50px auto;
+    padding: 10px 40px 20px;
+    border-radius: 15px;
+    background-color: rgb(185, 92, 49);
+    opacity: 0.9;
+    /* background: url("https://images.pexels.com/photos/3771110/pexels-photo-3771110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 ");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+
+h1{
+  
+    font-family: fantasy;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 45px;
+
+}
+h2{
+    font-size: 35px;
+    font-family: 'poppins';
+}
+/* Inside .stud */
+#name{
+    width: 95%;
+    height: 30px;
+    padding: 6px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* Inside .dateob  */
+#dob{
+    width: 95%;
+    height: 30px;
+    padding: 6px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom:15px ;
+    font-size: 20px;
+}
+/* Inside sex */
+#sex{
+    margin-bottom: 15px;
+}
+.gender{
+    font-size: 17px;
+    display: block;
+   
+}
+
+/* Inside .contact */
+#telno{
+    width: 95%;
+    height: 30px;
+    padding: 6px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom:15px ;
+    font-size: 20px;
+}
+
+
+
+/* Inside .e-mail  */
+  #email{
+    width: 95%;
+    height: 30px;
+    padding: 6px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom:15px ;
+    font-size: 20px;
+}
+
+
+/* Inside hobby */
+#hobby{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/*Inside .message */
+textarea{
+    top: 200px;
+    left: 20px;
+    width: 300px; 
+    height: 150px;
+    resize: both;
+}
+
+/* Inside fathername*/
+#fathername{
+    width: 95%;
+    height: 30px;
+    padding: 6px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+#fathernum{
+    width: 95%;
+    height: 30px;
+    padding: 6px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* Inside mothername */
+#mothername{
+    width: 95%;
+    height: 30px;
+    padding: 6px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+#mothernum{
+    width: 95%;
+    height: 30px;
+    padding: 6px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+
+#submission > .end{
+    width: 65px;
+    height: 35px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgb(203, 129, 49);
+    border-radius: 5px
+}
+#submission > .end:hover{
+    cursor: pointer;
+}

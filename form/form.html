@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="container">
+                    <h1>Registration Form</h1>
+                    <h2>Student's Details</h2>
+                    <form action="" method="POST">
+                        <label  for="name" class="stud">
+                            <span>Student's Name: </span><input type="text" id="name" placeholder="Enter your name" required>
+                        </label>
+                        <label for="dob" class="dateob">
+                            <span>Student's DOB: </span><input type="date" id="dob" placeholder="Enter your date of birth" required>
+                        </label>
+                        <div id="sex">
+                            <span>Gender: </span>
+                            <label class="gender" for="male">
+                                <input type="radio" id="male" name="gender">Male
+                            </label>
+                            <label class="gender" for="female" >
+                                <input type="radio" id="female" name="gender">Female
+                            </label>
+                        </div>
+                        <label for="telno" class="contact"><span>Student's Contact no:</span> 
+                            <input type="tel" id="telno" pattern="[0-9]{10}" placeholder="+977-9343204933" required>
+                        </label>
+                        <label for="email" class="e-mail"> 
+                            <span>Email</span><input type="email" id="email" placeholder="Enter your email" required>
+                        </label>
+                        <div id="hobby"> 
+                            <span>Hobby:</span>
+                            <label for="read"><input type="checkbox" id="read">Reading Books</label>
+                            <label for="play"><input type="checkbox" id="play">Playing Games</label>
+                            <label for="travel"><input type="checkbox" id="travel">Travelling</label>
+                        </div>
+                        <label class="message" for="msg">
+                            <span>Write a message: </span> <br><textarea placeholder="Enter at least 50 words" id="msg" rows="4" required></textarea>
+                        </label>
+
+                        <h2>Guardian's Details</h2>
+                        <label for="fathername">
+                            <span>Father's Name: </span><input type="text" id="fathername" placeholder="Enter your father's name" required>
+                        </label>
+                        <label for="fathernum">
+                            <span>Contact no:</span><input type="tel" id="fathernum" placeholder="+977-9343204933" required>
+                        </label>
+                        <label for="mothername">
+                            <span>Mother's Name: </span><input type="text" id="mothername" placeholder="Enter your mother's name" required>
+                        </label>
+                        <label for="mothernum">
+                            <span>Contact no:</span><input type="tel" id="mothernum" placeholder="+977-9343204933" required>
+                        </label>
+                        <div id="submission">
+                            <input type="submit" name="submit" class="end">
+                            <input type="reset" name="reset" class="end">
+                        </div>
+                            
+                    </form>
+        </div>
+    </body>
+</html>

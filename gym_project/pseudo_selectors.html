@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Before and After Pseudo selectors</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                background-color:black;
+                color: whitesmoke;
+               
+            }
+
+
+            header::before{
+               
+                background-image:url('https://images.unsplash.com/photo-1694543743347-4d7303ef6209?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80') ;
+                content: "";
+                position: absolute;
+                top: 0;
+                left:0;
+                height: 100%;
+                width: 100%;
+                z-index: -1;
+                opacity: 0.5;
+            }
+
+            header {
+               display: flex;
+               /* justify-content: center; */
+               /* align-items: center; */
+            }
+
+            .nav{
+                display: flex;
+            }
+
+            li{
+                list-style-type: none;
+                padding: 20px 45px;
+                font-size:15px ;
+                font-family:'Montserrat', sans-serif;
+                font-family: 'Roboto Condensed', sans-serif;;
+            }
+            
+            section{
+                height: 300px;
+                width: 1000px;
+                margin: auto;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            h2{
+                font-size: 4rem;
+            }
+
+            p{
+                text-align: center;
+                
+                font-family: 'Croissant One', cursive;
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Roboto Condensed', sans-serif;
+            }
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+               <ul class="nav"> 
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Help</li>
+                </ul>
+            </nav>
+
+        </header>
+        
+        <section >
+            <h2>Welcome to my website</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad asperiores optio nemo, ratione quas assumenda? Distinctio doloribus quibusdam ducimus possimus enim libero ex.</p>
+        </section>
+    </body>
+</html>

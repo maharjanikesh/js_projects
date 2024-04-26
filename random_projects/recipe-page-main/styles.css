@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    padding: 50px ;
+
+}
+.container > .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text > .simple{
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.text > .steps{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.preparation_time{
+    height:12rem;
+    width: 93%;
+    padding: 40px;
+    background-color: rgb(255, 237, 240);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.prep_time, .ingredients_steps, .instructions_steps{
+    padding: 28px;
+    text-align: justify;
+}
+ li{
+    font-size: 30px;
+    font-weight: 300;
+}
+.line{
+    height: 2px;
+    width: 100%;
+    background: rgb(167, 167, 167);
+    margin-top:20px ;
+    margin-bottom:20px ;
+}
+
+.preparation, .ingredients, .instructions, .nutrition{
+    color: rgb(145, 35, 35);
+    margin-bottom: 30px;
+    font-size: 45px;
+
+}
+
+span{
+    font-weight: bold;
+
+}
+.nutp{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.nut_values > .nut_line{
+    height: 2px;
+    width: 100%;
+    background: rgb(167, 167, 167);
+    margin: 20px 0px;
+
+}
+.nut{
+    font-size: 30px;
+    font-weight: 300;
+    margin:0 50px;
+}
+
+.nut > .cal{
+    margin-left: 500px;
+    color: rgb(146, 43, 43);
+}
+.nut > .og{
+    margin-left: 530px;
+    color: rgb(146, 43, 43);
+}
+.nut > .twog{
+    margin-left: 513px;
+    color: rgb(146, 43, 43);
+}
+.nut > .two_twog{
+    margin-left: 562px;
+    color: rgb(146, 43, 43);
+}
+
+@media only screen and (max-width: 400px ) {
+    img{
+        width: 100%;
+    }
+
+    .container {
+        padding: 10px;
+        border: 1px solid black;
+    }
+
+    .nut_values {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
